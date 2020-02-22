@@ -1,1 +1,0 @@
-# saltykovomemorial.github.io
