@@ -1,293 +1,106 @@
 <!doctype html>
 
-<html lang="ru">
+<html class="no-js" lang="en">
 
+	<head>
 
+		<meta charset="utf-8">
 
-<head>
+		<title>О чём молчит Мемориал</title>
 
-    <meta charset="utf-8" />
+		<meta name="description" content="A basic responsive web page – an example from Chapter 1">
 
-    <title>О чём молчит Мемориал</title>
+		<meta name="viewport" content="width=device-width">
 
-</head>
+		<link rel="stylesheet" href="styles.css">
 
+	</head>
 
+	<body>
 
-<body background="Fon1.jpg" style="background-repeat: no-repeat; background-position: center">
+		<div class="Header">
 
-    <!--Создаём таблицу контейнер, которой задаём следующее
+			<a href="/" class="LogoWrapper"><img src="P-75_logo.png" alt="75-летие Великой Победы" /></a>
 
-оформление:
+            <!-- <p class="Strap">Скачать книгу</p> -->
 
-border="1" - рамка вокруг контейнера. Увеличив число, можно увеличить толщину рамки.
+            <p class="Strap"><a target="_blank" href="saltmemo.pdf">Скачать книгу</p></a>
+            <!-- <a target="_blank" href="saltmemo.pdf"> <span style="margin-left:5px;"><h1>О ЧЕМ МОЛЧИТ МЕМОРИАЛ</h1></span></a> -->
 
-align="center" - размещаем контейнер по центру экрана.
+		</div>
 
-rules="rows" - убираем двойную рамку.
+		<div class="IntroWrapper">
 
-style="width:60%;" - добавляем стилевое свойства, делающее
+			<p class="IntroText">О ЧЁМ МОЛЧИТ МЕМОРИАЛ</p>
 
-контейнер и весь сайт "резиновым".
+			<div class="MoneyShot">
 
-Сделать полноценный адаптивный дизайн, этим способом невозможно.-->
+				<img class="MoneyShotImg" src="pamatnik1.jpg" alt="Incredible scones" />
 
-    <table border="0" align="center" rules="rows" style="width:60%;">
+				<!-- <p class="ImageCaption">Incredible scones, picture from Wikipedia</p> -->
 
-        <!--Создаём строку-->
+			</div>
 
-        <tr>
+		</div>
 
-            <!--Создаём ячейку строки-->
+		<p>Сборник аналитической информации об участниках Великой Отечественной войны 1941 - 1945 гг., родившихся на территории Салтыковского сельского совета Дубовязовского района Сумской области и воинах-освободителях, похороненных в братской могиле села Салтыково. 
+            Сборник издан с целью сохранения памяти о легендарном поколении победителей, воспитания у молодежи интереса к нашему историческому прошлому, а также стимулирования продолжения поисковой работы.
+            Сборник также рассчитан на тех, кто интересуется прошлым и настоящим своей малой родины.</p>
 
-            <td>
+		<div class="Ingredients">
 
+			<h3 class="SubHeader">Источники информации:</h3>
 
+			<ul>
 
-                <!--ШАПКА САЙТА-->
+				<li>сельский Мемориал Славы</li>
 
-                <!--В ячейке строки создаём ещё одну таблицу для шапки сайта.
+				<li>История городов и сел Украины: Энциклопедия. Т.: Сумская область</li>
 
-Оформление:
+				<li>архивные интернет-порталы Министерства обороны Российской Федерации:</li>
 
-border="1" - двойная рамка толщиной в 1px
+				<li>сайт ОБД «Мемориал»</li>
 
-background="images/168.png" - картинка в шапке сайта, если требуется.
+				<li>сайт «Память народа»</li>
 
-Адрес картинки вы должны вставить свой.
+				<li>сайт «Подвиг народа»</li>
 
-bgcolor="#7FFFD4" - фоновый цвет в шапке, если нет картинки.
+				<!-- <li>1 tsp vanilla extract</li>
 
-cellpadding="10" - отступ содержимого от рамки не менее 10px.
+				<li>squeeze lemon juice (see Know-how below)</li>
 
-style="width:100%; border-radius:5px;" - добавляем "резиновость"
+				<li>beaten egg, to glaze</li>
 
-и закругляем уголки рамки-->
+				<li>jam and clotted cream, to serve</li> -->
 
-                <table border="0" background=" " bgcolor=" " cellpadding="10"
+			</ul>
 
-                    style="width:100%; border-radius:5px;">
+		</div>
 
-                    <!--Создаём строку таблицы-->
+		<div class="HowToMake">
 
-                    <tr>
+			<h3 class="SubHeader">Автор - Поволоцкий П.М.</h3>
 
-                        <!--Создаём столбец таблицы-->
+			<!-- <ol class="MethodWrapper">
 
-                        <th>
+				<li>Heat the oven to 220&deg;C (or gas mark 7). Tip the flour into a large bowl along with the salt and baking powder, then mix it all up. Add the butter in, then rub the butter in with your fingers until the mix looks like fine crumbs. When that is done, stir in the sugar.</li>
 
-                            <!--Содержание ячейки столбца-->
+				<li>Put the milk into a jug and heat in the microwave for about 20-30 seconds. It should be warm but not hot. Add the vanilla and lemon juice to the milk and then put that to one side and but a baking tray in the oven to warm.</li>
 
-                            <a target="_blank" href="saltmemo.pdf"> <span style="margin-left:5px;"><h1>О ЧЕМ МОЛЧИТ МЕМОРИАЛ</h1></span></a>
-                            <!--<h1>О ЧЕМ МОЛЧИТ МЕМОРИАЛ</h1>-->
+				<li>Make a well in the dry mix, then add the liquid and combine it quickly with a cutlery knife – it will seem pretty wet at first. Spread some flour onto the work surface and tip the dough out. Dredge the dough and your hands with a little more flour, then fold the dough over 2-3 times until it's smoother. Now pat it into a round shape about 4cm deep.</li>
 
-                            <h3></h3>
+				<li>Take a 5cm cutter (Pro-tip – smooth-edged cutters tend to cut more cleanly, giving a better rise) and dip it into some flour. Plunge into the dough, then repeat until you have four scones. By this point you’ll probably need to press what's left of the dough back into a round to cut out another four.</li>
 
-                            <!--Закрываем таблицу-->
+				<li>Brush the tops with beaten egg, then place onto the hot baking tray.</li>
 
-                        </th>
+				<li>Bake for 10 minutes until risen and golden on the top. Eat just warm or cold on the day of baking, generously (and I do mean generously) topped with jam and clotted cream. </li>
 
-                    </tr>
+				<li>If freezing, freeze once cool. Defrost, then put in a low oven (about 160&deg;C) for a few minutes to refresh.</li>
 
-                </table>
+			</ol> -->
 
-                <!--ОСНОВНОЙ КОНТЕНТ-->
+		</div>
 
-                <!--В этой же ячейке контейнера создаём ещё одну таблицу
-
-для основного контента.
-
-Оформление как и в предыдущей таблице-->
-
-                <!-- <table border="1" bgcolor="#e6e6fa" cellpadding="10" style="width:100%; border-radius:5px;"> -->
-                        <table border="0" align="center" style="background-color: rgba(255, 255, 255, 0.5); width: 52%" height="100" cellpadding="10">
-
-                    <!--Создаём строку-->
-
-                    <tr>
-
-                        <!--Создаём ячейку
-
-Оформление:
-
-rowspan="2" - объединяем две ячейки в одну.
-
-Число объединяемых ячеек по числу ячеек в сайдбаре.
-
-style="width:80%" - основной контент занимает 80% всей площади,
-
-оставшиеся 20% для сайдбара-->
-
-                        <td rowspan="2" style="width:80%">
-
-                            <h2></h2>
-
-                            <!--Начинаем абзац с красной строки-->
-
-                            <p style="text-indent:20px">
-
-                                Сборник аналитической информации об участниках Великой Отечественной войны 1941 - 1945
-
-                                гг., родившихся на территории Салтыковского сельского совета Дубовязовского района
-
-                                Сумской области и воинах-освободителях, похороненных в братской могиле села Салтыково.
-
-                            </p>
-
-                            <p style="text-indent:20px">
-
-                                Сборник издан с целью сохранения памяти о легендарном поколении победителей, воспитания
-
-                                у молодежи интереса к нашему историческому прошлому, а также стимулирования продолжения
-
-                                поисковой работы.</p>
-
-                            <p style="text-indent:20px">
-
-                                Сборник также рассчитан на тех, кто интересуется прошлым и настоящим своей малой родины.
-
-                                <!--Закрываем ячейку-->
-                                <h3>Ссылка на книгу</h3> <a target="_blank" href="saltmemo.pdf"> <span style="margin-left:5px">Скачать</span></a>
-                                <p></p><h3>Автор</h3>Поволоцкий П.М.</p>
-
-                            
-
-                        </td>
-
-                        <!--САЙДБАР-->
-
-                        <!--Создаём ячейку сайдбара-->
-
-                        <!-- <td bgcolor="#e6e6fa"> -->
-
-                            <!-- <h3>Ссылка на книгу</h3> -->
-
-                            <!--Абзац для ссылки на страницу сайта-->
-
-                            <p>
-
-                                <!--Ссылка на страницу сайта-->
-
-                                <!-- <a target="_blank" href="saltmemo.pdf"> -->
-
-                                    <!--Картинка маркера перед названием страницы-->
-
-                                    <!--<img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
-
-                                    <!--Название страницы
-
-style="margin-left:5px;" - отступ названия от маркера-->
-
-                                    <!-- <span style="margin-left:5px;">Скачать</span></a> -->
-
-                                <!--Закрываем абзац-->
-
-                            </p>
-
-                            <!-- <p>
-
-                                <a href="">
-
-                                    <img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
-
-                                    <span style="margin-left:5px;">Страница 1</span;></a>
-
-                            </p>
-
-                            <p>
-
-                                <a href="">
-
-                                    <img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
-
-                                    <span style="margin-left:5px;">Страница 2</span></a>
-
-                            </p> -->
-
-                            <!--Закрываем строку Меню-->
-
-                        </td>
-
-                    </tr>
-
-                    <!--Создаём строку с дополнительной информацией-->
-
-                    <tr>
-
-                        <!--Ячейка с дополнительной информацией-->
-
-                        <!-- <td bgcolor="#e6e6fa" align="center"> -->
-
-                            <!-- <h3>Автор</h3>
-
-                            <p>Поволоцкий П.М.</p> -->
-
-                            <!--Закрываем ячейку с общей информацией
-
-и таблицу основного контента-->
-
-                        </td>
-
-                    </tr>
-
-                </table>
-
-                <!--ПОДВАЛ-->
-
-                <!--Создаём таблицу подвала-->
-
-                <table border="0" align="center" style="background-color: rgba(255, 255, 255, 0.5)" height="100" cellpadding="10">
-
-                <!--style="width:100%; border-radius:5px;"-->
-
-                    <!--Создаём строку.-->
-
-                    <tr>
-
-                        <!--Создаём столбец-->
-
-                        <th>
-
-                            <h3>Источники информации:</h3>
-
-                            <h4>
-
-                            <p style="text-indent:20px">
-
-                                – сельский Мемориал Славы, </br>
-
-								– История городов и сел Украины: Энциклопедия. Т. : Сумская область,</br>
-
-								– архивные интернет-порталы Министерства обороны Российской Федерации:</br>
-
-								– сайт ОБД «Мемориал»,</br>
-
-								– сайт «Память народа»,</br>
-
-								– сайт «Подвиг народа»</p>
-
-							</h4>
-
-                            <!--Закрываем таблицу подвала. При желании в подвале можно
-
-сделать несколько строк и столбцов-->
-
-                        </th>
-
-                    </tr>
-
-                </table>
-
-                <!--Закрываем таблицу контейнера-->
-
-            </td>
-
-        </tr>
-
-    </table>
-
-</body>
-
-
+	</body>
 
 </html>
